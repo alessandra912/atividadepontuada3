@@ -25,7 +25,7 @@ def desconto_imposto_de_renda(valor_salario, dependente):
         imposto_de_renda = calculo * 0.075
     elif calculo <= 3544.00:
         imposto_de_renda = calculo * 0.15
-    elif calculo >= 4256.00:
+    elif calculo <= 4256.00:
         imposto_de_renda = calculo * 0.225
     else:
         imposto_de_renda = calculo * 0.275
